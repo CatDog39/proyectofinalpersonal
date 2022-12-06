@@ -27,6 +27,9 @@ export function Menu(){
               <li class="nav-item">
                 <Link class="nav-link" to="music">Music</Link>
               </li>
+              <li class="nav-item">
+                <Link class="nav-link" to="mercancias">Mercancias</Link>
+              </li>
               
             </ul>
           </div>

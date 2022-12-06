@@ -1,3 +1,12 @@
-.fondo{
-    background-color: #0B14D0;
+.pie{
+    background-color: #cfd1e5;
+}
+
+.fuente{
+    font-size: 80px;
+}
+
+.dimension{
+    width: 10px;
+    height: 350px;
 }

@@ -14,7 +14,7 @@ export function Home(){
             <section>
                 <div class="container">
                     <div class="row">
-                        <div clas="col-12 col-md-8">
+                        <div class="col-12 col-md-8">
                             <h2>Héroes del Silencio</h2>
                             <p> Héroes del Silencio (a veces abreviado Héroes o por sus iniciales HDS) fue un grupo español de rock radicado en Zaragoza, formado inicialmente por Juan Valdivia (guitarra solista) y Enrique Bunbury (voz y guitarra rítmica), y completado con Joaquín Cardiel (bajo) y Pedro Andreu (batería), a mediados de los años 80. Experimentaron un gran éxito en España e Hispanoamérica, así como en varios países europeos, incluyendo Alemania, Bélgica, Suiza, Francia e Italia, convirtiéndose en uno de los grupos más exitosos de la historia del rock en español.3​4​ Después de doce años en los que vendieron más de seis millones de discos en más de treinta y siete países, y en los que ofrecieron más de mil conciertos, la banda se separó en 1996.5​
                                 Sus señas de identidad fueron una imagen muy característica, con una iconografía y simbología muy particulares, y una música caracterizada por unas letras ambiguas y trascendentales, arpegios complicados y una sólida base rítmica.6​ Entre sus influencias literarias se han citado escritores como William Blake y Charles Baudelaire,7​ y entre las musicales a grupos como Led Zeppelin y The Cult.8​9​
@@ -23,7 +23,7 @@ export function Home(){
                                 En 2007 fueron homenajeados por la discográfica EMI en reconocimiento a sus más de seis millones de discos vendidos, además de recibir el Premio Ondas Especial del Jurado.</p>
                                 <img src="https://firebasestorage.googleapis.com/v0/b/spotyabc-41b7d.appspot.com/o/hdsenvivo.jpg?alt=media&token=1174cbff-ae16-4ced-9baa-1069e5aa67fc" alt="" class="img-fluid w-100"></img>
                         </div>
-                        <div clas="col-12 col-md-4">
+                        <div class="col-12 col-md-4">
                             <div class="row">
                                 <div class="col-1">
                                     <i class="bi bi-vinyl-fill fs-1"></i>
@@ -37,33 +37,14 @@ export function Home(){
                                     </div>
 
                                 </div>
+                            </div>
+                            <div class="row">
                                 <div class="col-1">
-                                    <i class="bi bi-vinyl-fill fs-1"></i></div>
-                                <div class="col">
-                                    <div class="row">
-                                        <h3>New York</h3>
-                                    </div>
-                                    <div class="row">
-                                        <h3>Dec 20</h3>
-                                    </div>
-
+                                    <i class="bi bi-vinyl-fill fs-1"></i>
                                 </div>
-                                <div class="col-1">
-                                    <i class="bi bi-vinyl-fill fs-1"></i></div>
                                 <div class="col">
                                     <div class="row">
-                                        <h3>London</h3>
-                                    </div>
-                                    <div class="row">
-                                        <h3>Dec 24</h3>
-                                    </div>
-
-                                </div>
-                                <div class="col-1">
-                                    <i class="bi bi-vinyl-fill fs-1"></i></div>
-                                <div class="col">
-                                    <div class="row">
-                                        <h3>Tokio</h3>
+                                        <h3>Medellín</h3>
                                     </div>
                                     <div class="row">
                                         <h3>Dec 16</h3>
@@ -71,6 +52,35 @@ export function Home(){
 
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class="bi bi-vinyl-fill fs-1"></i>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <h3>Medellín</h3>
+                                    </div>
+                                    <div class="row">
+                                        <h3>Dec 16</h3>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class="bi bi-vinyl-fill fs-1"></i>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <h3>Medellín</h3>
+                                    </div>
+                                    <div class="row">
+                                        <h3>Dec 16</h3>
+                                    </div>
+
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -78,14 +88,29 @@ export function Home(){
             <section>
                 <div class="container-fluid">
                     <div class="row">
+                        <div class="col-12">
+                            <h1>NOTICIAS</h1>
+                            <hr/>
+                        </div>
+                    </div>
+                    <div class="row">
                         <div class="col-12 col-md-4">
                             <img src="https://firebasestorage.googleapis.com/v0/b/spotyabc-41b7d.appspot.com/o/hdsimg1.webp?alt=media&token=8a7f4fad-0e73-474c-9384-d2fa16e1661e" alt="" class="img-fluid w-100"/>
+                            <p>
+                                La banda se separa temporalmente por problemas personales de faldas
+                            </p>
                         </div>
                         <div class="col-12 col-md-4">
                             <img src="https://firebasestorage.googleapis.com/v0/b/spotyabc-41b7d.appspot.com/o/hdsimg2.jpg?alt=media&token=66e0633d-c09b-4d3c-8ad0-6c113c4ab38a" alt="" class="img-fluid w-100"/>
+                            <p>
+                                Foto del album desierto rompe en taquilla, mejor album vendido de la banda
+                            </p>
                         </div>
                         <div class="col-12 col-md-4">
                             <img src="https://firebasestorage.googleapis.com/v0/b/spotyabc-41b7d.appspot.com/o/hdsimg3.jpg?alt=media&token=46e474aa-dc80-4f3b-85f8-c5b39c0f9896" alt="" class="img-fluid w-100"/>
+                            <p>
+                                
+                            </p>
                         </div>
                         
                     </div>
