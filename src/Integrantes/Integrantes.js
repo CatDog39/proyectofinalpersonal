@@ -27,18 +27,18 @@ export function Integrantes(){
     return(
         <>
             <h1>{titulo}</h1>
-            <div class="container">
-                <div classs="row row-cols-1 row-cols-md-3 g-0">
+            <div className="container">
+                <div classNames="row row-cols-1 row-cols-md-3 g-0">
                     {
                         miembros.map(function(miembro){
                             return(
                                 <>
-                                    <div class="row-col-1">
-                                        <div class="row">
-                                            <div class="col">
+                                    <div className="row-col-1">
+                                        <div className="row">
+                                            <div className="col">
                                                 <h1>HOLA</h1>
                                             </div>
-                                            <div class="col">
+                                            <div className="col">
                                             <h1>HOLA</h1>
                                             </div>
                                         </div>

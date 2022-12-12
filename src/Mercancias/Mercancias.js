@@ -1,6 +1,22 @@
 import { Footer } from "../shared/Footer/Footer"
+import { useNavigate } from "react-router-dom"
 
 export function Mercancias(){
+
+    //activamos la navegacion entre componentes 
+    //cuando se de un evento
+    let navegacion=useNavigate()
+
+
+    //  que hago cuando se de el evento...
+    function detectarEvento(productoSeleccionado){
+        
+        navegacion('/tienda',{
+            state:{productoSeleccionado}
+        })
+
+    }
+
     let titulo="Productos para los fans..."
 
     let productos=[
@@ -39,19 +55,29 @@ export function Mercancias(){
     return(
         <>
             <h1>{titulo}</h1>
-            <div class="container">
-                <div class="row row-cols-1 row-cols-md-3 g-5">
+            <div className="container">
+                <div className="row row-cols-1 row-cols-md-3 g-5">
 
                     {
-                        productos.map(function(producto){
+                        productos.map(function(producto,id){
                             return(
-                                <>
-                                    <div class="col">
-                                        <div class="card h-100 shadow">
-                                            <img src={producto.foto} alt="" class="h-100 img-fluid w-100"/>
+                                <div key={id}>
+                                    <div className="col">
+                                        <div className="card h-100 shadow">
+
+                                        <h2>{producto.nombre}</h2>
+                                            <img src={producto.foto} alt="" className="h-100 img-fluid w-100"/>
+                                            
+                                            <h4>${producto.precio}</h4>
+                                            <h5>Algo mas</h5>
+                                            <button className='btn btn-primary mx-3 mb-3 my-3' onClick={
+                                                function(){
+                                                    detectarEvento(producto)
+                                                }
+                                            }>Ampliar</button>
                                         </div>
                                     </div>
-                                </>
+                                </div>
                             )
                         })
                     }
