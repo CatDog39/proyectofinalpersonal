@@ -28,7 +28,7 @@ export function Integrantes(){
         <>
             <h1>{titulo}</h1>
             <div className="container">
-                <div classNames="row row-cols-1 row-cols-md-3 g-0">
+                <div classNames="row row-cols-1 row-cols-md-2 g-0">
                     {
                         miembros.map(function(miembro){
                             return(
@@ -36,10 +36,10 @@ export function Integrantes(){
                                     <div className="row-col-1">
                                         <div className="row">
                                             <div className="col">
-                                                <h1>HOLA</h1>
+                                                <img src={miembro.foto} alt="" className="img-fluid w-100"/>
                                             </div>
                                             <div className="col">
-                                            <h1>HOLA</h1>
+                                            <p>{miembro.biografia}</p>
                                             </div>
                                         </div>
                                     </div>
