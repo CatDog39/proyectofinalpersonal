@@ -21,18 +21,18 @@ export function Home(){
                                 En 2007, conmemorando el vigésimo aniversario de sus primeras grabaciones y once años después de su ruptura, anunciaron su regreso con una gira de diez conciertos en España y América, titulada genéricamente Héroes del Silencio Tour 2007. Después de la gira se separaron definitivamente.10​
                                 Sus cuatro álbumes de estudio han sido incluidos por la revista musical Al Borde en la lista de los 250 mejores de todos los tiempos del rock iberoamericano: Senderos de traición (n.º 5), Avalancha (n.º 35), El espíritu del vino (n.º 117) y El mar no cesa (n.º 119).11​ Su canción «Entre dos tierras» ha sido considerada por la revista digital Satélite Musical como la decimonovena mejor de todos los tiempos del rock hispano en general.12​La revista Rolling Stone los calificó en 2012 como el segundo mejor grupo de rock español de la historia.13​
                                 En 2007 fueron homenajeados por la discográfica EMI en reconocimiento a sus más de seis millones de discos vendidos, además de recibir el Premio Ondas Especial del Jurado.</p>
-                                <img src="https://firebasestorage.googleapis.com/v0/b/spotyabc-41b7d.appspot.com/o/hdsenvivo.jpg?alt=media&token=1174cbff-ae16-4ced-9baa-1069e5aa67fc" alt="" className="img-fluid w-100"></img>
+                                
                         </div>
-                        <div className="col-12 col-md-4">
+                        <div className="col-12 col-md-4 cuadro">
                             <div className="row">
                                 <div className="col-1">
                                     <i className="bi bi-vinyl-fill fs-1"></i>
                                 </div>
                                 <div className="col">
-                                    <div className="row">
+                                    <div className="row mx-3">
                                         <h3>Medellín</h3>
                                     </div>
-                                    <div className="row">
+                                    <div className="row mx-3">
                                         <h3>Dec 16</h3>
                                     </div>
 
@@ -43,25 +43,11 @@ export function Home(){
                                     <i className="bi bi-vinyl-fill fs-1"></i>
                                 </div>
                                 <div className="col">
-                                    <div className="row">
-                                        <h3>Medellín</h3>
+                                    <div className="row mx-3">
+                                        <h3>London</h3>
                                     </div>
-                                    <div className="row">
-                                        <h3>Dec 16</h3>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col-1">
-                                    <i className="bi bi-vinyl-fill fs-1"></i>
-                                </div>
-                                <div className="col">
-                                    <div className="row">
-                                        <h3>Medellín</h3>
-                                    </div>
-                                    <div className="row">
-                                        <h3>Dec 16</h3>
+                                    <div className="row mx-3">
+                                        <h3>Jan 18</h3>
                                     </div>
 
                                 </div>
@@ -71,20 +57,41 @@ export function Home(){
                                     <i className="bi bi-vinyl-fill fs-1"></i>
                                 </div>
                                 <div className="col">
-                                    <div className="row">
-                                        <h3>Medellín</h3>
+                                    <div className="row mx-3">
+                                        <h3>Madrid</h3>
                                     </div>
-                                    <div className="row">
-                                        <h3>Dec 16</h3>
+                                    <div className="row mx-3">
+                                        <h3>Jan 30</h3>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-1">
+                                    <i className="bi bi-vinyl-fill fs-1"></i>
+                                </div>
+                                <div className="col">
+                                    <div className="row mx-3">
+                                        <h3>Berlin</h3>
+                                    </div>
+                                    <div className="row mx-3">
+                                        <h3>Feb 10</h3>
                                     </div>
 
                                 </div>
                             </div>
                             
                         </div>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/spotyabc-41b7d.appspot.com/o/hdsenvivo.jpg?alt=media&token=1174cbff-ae16-4ced-9baa-1069e5aa67fc" alt="" className="img-fluid w-100"></img>
                     </div>
+                    
+                    
                 </div>
+                
             </section>
+
+            
+
             <section>
                 <div className="container-fluid">
                     <div className="row">
@@ -109,7 +116,7 @@ export function Home(){
                         <div className="col-12 col-md-4">
                             <img src="https://firebasestorage.googleapis.com/v0/b/spotyabc-41b7d.appspot.com/o/hdsimg3.jpg?alt=media&token=46e474aa-dc80-4f3b-85f8-c5b39c0f9896" alt="" className="img-fluid w-100"/>
                             <p>
-                                
+                                Primer album con reconocimiento Platino del Rock
                             </p>
                         </div>
                         

@@ -5,3 +5,18 @@
     background-attachment: fixed;
     padding: 30%;
 }
+
+.espacio{
+    margin-right: 10px;
+}
+
+.cuadro{
+    border: 2px red solid;
+    padding-left: 80px;
+    padding-top: 30px;
+
+}
+
+.foto{
+    padding-top:  60px;
+}

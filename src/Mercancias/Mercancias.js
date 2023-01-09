@@ -1,6 +1,6 @@
 import { Footer } from "../shared/Footer/Footer"
 import { useNavigate } from "react-router-dom"
-
+import "./Mercancias.css"
 export function Mercancias(){
 
     //activamos la navegacion entre componentes 
@@ -71,7 +71,7 @@ export function Mercancias(){
                                     <div className="col">
                                         <div className="card h-100 shadow">
 
-                                        <h2>{producto.nombre}</h2>
+                                            <h2>{producto.nombre}</h2>
                                             <img src={producto.foto} alt="" className="h-100 img-fluid w-100"/>
                                             
                                             <h4>${producto.precio}</h4>
