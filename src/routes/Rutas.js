@@ -9,6 +9,7 @@ import { Music } from "../Music/Music"
 import { Mercancias } from "../Mercancias/Mercancias"
 import { AmpliarInfo } from "../AmpliarInfo/AmpliarInfo"
 
+
 export function Rutas(){
     return (
         <>

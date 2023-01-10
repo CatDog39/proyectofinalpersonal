@@ -36,7 +36,7 @@ export function Integrantes(){
                 <div classNames="row row-cols-1 row-cols-md-2 g-0">
                     {
                         miembros.map(function(miembro){
-                            if(miembro.id %2 == 0){
+                            if(miembro.id %2 === 0){
                                 return(
                                     <>
                                         <div className="row-col">
