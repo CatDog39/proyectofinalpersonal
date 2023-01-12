@@ -21,31 +21,31 @@ export function Mercancias(){
 
     let productos=[
         {
-            nombre:"Buzo negro original HdS",
+            nombre:"Buzo negro original",
             foto:"https://firebasestorage.googleapis.com/v0/b/spotyabc-41b7d.appspot.com/o/buzohds.jpg?alt=media&token=4561f963-f4b5-48d0-9460-51925ef41d24",
             precio:75,
             descripcion:"Buzos sin capucha fija y bolsillo cangurero. Para niños y adultos. Su estilo moderno cuenta con capucha removible de cordón ajustable. Buzos hechos en algodón perchado mónaco importado. Tallas disponibles: Niños: 2 - 4 - 6 - 8 - 10 - 12 - 14 - 16 Adultos: S - M - L - XL"
         },
         {
-            nombre:"Camiseta negra original HdS",
+            nombre:"Camiseta negra original",
             foto:"https://firebasestorage.googleapis.com/v0/b/spotyabc-41b7d.appspot.com/o/camisetahds.jpg?alt=media&token=b9b87085-f38e-4706-8d0d-e8eeb34668b7",
             precio:35,
             descripcion:"Camiseta de corte estándar en punto suave de algodón con cuello redondo con ribete acanalado y bajo recto."
         },
         {
-            nombre:"Camisilla negra dama original HdS",
+            nombre:"Camisilla negra dama original",
             foto:"https://firebasestorage.googleapis.com/v0/b/spotyabc-41b7d.appspot.com/o/camisillahds.jpg?alt=media&token=7f6e6264-33d7-48d1-ace4-ab9a20f1ebe2",
             precio:30,
             descripcion:"Infaltable en el closet de todo hombre.  La actividad antibacterial de este producto elimina el 99.9% de las bacterias causantes del mal olor probadas (Staphylococcus Aureus y Klebseilla Pneumoniae) al entrar en contacto con la tela. Sus propiedades se conservan hasta por 50 lavadas."
         },
         {
-            nombre:"Figuras coleccionable original album 1980 HdS",
+            nombre:"Figuras coleccionable album 1980 ",
             foto:"https://firebasestorage.googleapis.com/v0/b/spotyabc-41b7d.appspot.com/o/figurahds.jpg?alt=media&token=7385d261-9788-47b0-8049-a33166e7fa56",
             precio:45,
             descripcion:"Figura de colección de la banda,  pintada a mano. Todos los integrantes con sus instrumentos. Unidades limitadas 100% originales"
         },
         {
-            nombre:"LP album con Mejores exitos HdS",
+            nombre:"LP album con Mejores exitos",
             foto:"https://firebasestorage.googleapis.com/v0/b/spotyabc-41b7d.appspot.com/o/vinilohds.webp?alt=media&token=98dc6f6e-8b77-4e16-9fe8-dfa411d64229",
             precio:85,
             descripcion:"Primer album re editado en LP con los mejores exitos, caratula con foto del primer concierto de la banda. Incluye 50 fotografías autografidas  por todos los miembros en los principales  concientos al  rededor del  mundo"
@@ -69,13 +69,13 @@ export function Mercancias(){
                             return(
                                 <div key={id}>
                                     <div className="col">
-                                        <div className="card h-100 shadow">
+                                        <div className="card h-100 shadow ">
 
-                                            <h2>{producto.nombre}</h2>
-                                            <img src={producto.foto} alt="" className="h-100 img-fluid w-100"/>
+                                            <h5>{producto.nombre}</h5>
+                                            <img src={producto.foto} alt="" className="img-fluid dimension"/>
                                             
-                                            <h4>${producto.precio}</h4>
-                                            <h5>Algo mas</h5>
+                                            <p>${producto.precio}</p>
+                                            <p>Algo mas</p>
                                             <button className='btn btn-primary mx-3 mb-3 my-3' onClick={
                                                 function(){
                                                     detectarEvento(producto)
