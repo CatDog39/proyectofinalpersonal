@@ -11,7 +11,7 @@ export async function servicioCancionesTop(){
                   //PETICION ES LO MISMO QUE REQUEST
                   const PETICION={
                                     method:"GET",
-                                    headers:{Authorization:"Bearer BQDZaXu0eRLNOhmrNDVC7e_kBm6QEHax5VrClzHh2Pzm61S3KD0lzHMHHiUVf8xg62CYsjCyKF3bXwiO7xhFH9kOCYg_jPGLdi9P7_ZI23mvENQD9rFvIMMOIxoyOlx8_JrxjvbFMffdqvb5MRGzOeK2-XqqdoLaEZ4eabZmDqKZQGqlGrxdHcDjzTuUY-cJyIo"}
+                                    headers:{Authorization:"Bearer BQAUwASi4pzOOIZ4U55j0syjxpGbsX490HrZNTEu6z_njBLSKUre6J6rPIYVZRw-J5MF8r6-PSj3ABJmSnbK-BzGYBIdV7SYopiQZic3Qngl644tOS-O3aLtDy4GpeF_TY5kjNgzOYcknWQTU4HQy4ABUoWq1skLUsm95wQvjV-SkerWKQFbuZ3A-OJV7YG-Uhg"}
                   }
 
                   //3. NOS VAMOS PAL RESTAURANTE
@@ -19,7 +19,7 @@ export async function servicioCancionesTop(){
                   let respuesta=await fetch(URL,PETICION)
                   let canciones=await respuesta.json()
 
-                  console.log(canciones)
+                  return canciones
 
 
 
