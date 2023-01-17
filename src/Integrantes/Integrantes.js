@@ -1,4 +1,6 @@
 import "./Integrantes.css"
+import { Footer } from "../shared/Footer/Footer"
+
 export function Integrantes(){
 
     let titulo="Miembros de la banda"
@@ -31,7 +33,7 @@ export function Integrantes(){
 
     return(
         <>
-            <h1>{titulo}</h1>
+            <h1 className="titulo">{titulo}</h1>
             <div className="container">
                 <div classNames="row row-cols-1 row-cols-md-2 g-0">
                     {
@@ -45,7 +47,7 @@ export function Integrantes(){
                                                     <img src={miembro.foto} alt="" className="img-fluid w-100"/>
                                                 </div>
                                                 <div className="col">
-                                                <p>{miembro.biografia}</p>
+                                                <p className="espacio">{miembro.biografia}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -58,7 +60,7 @@ export function Integrantes(){
                                         <div className="row-col">
                                             <div className="row espacio">
                                                 <div className="col">
-                                                    <p>{miembro.biografia}</p>
+                                                    <p className="espacio">{miembro.biografia}</p>
                                                 </div>
                                                 <div className="col">
                                                     <img src={miembro.foto} alt="" className="img-fluid w-100"/>
@@ -73,6 +75,7 @@ export function Integrantes(){
                     }
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

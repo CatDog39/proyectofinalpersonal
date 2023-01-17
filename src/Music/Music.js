@@ -1,5 +1,6 @@
 import { servicioCancionesTop } from "../services/servicioCanciones"
 import { useState,useEffect } from "react"
+import "./Music.css"
 
 export function Music(){
 
@@ -31,20 +32,29 @@ export function Music(){
         return(
             <>
                 <h2>canciones de la banda: </h2>
-                {
-                    canciones.tracks.map(function(cancion){
-                        //{console.log(cancion)}
-                        return(
-                            <div>
-                                <h1>{cancion.name}</h1>
-                                <audio controls src={cancion.preview_url}></audio>
-                                <img src={cancion.album.images[0].url}></img>
-                            </div>
-                            
-                        )
-                    })
-                }
+                <div className="container">
+                    <div className="row row-cols-1 row-cols-md-5 g-4">
+                        {
+                            canciones.tracks.map(function(cancion,id){
+                                return(
+                                    <div key={id}>
+                                        <div className="col">
+                                            <div className="card h-100 shadow">
+                                                <img src={cancion.album.images[0].url} className="img-fluid w-100"></img>
+                                                <p className="titulo">{cancion.name}</p>
+                                                <audio controls src={cancion.preview_url}></audio>
+                                                <p>Popularidad: {cancion.popularity}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </div>
+                
             </>
+            
         )
 
     }

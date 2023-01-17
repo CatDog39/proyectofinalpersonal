@@ -60,7 +60,7 @@ export function Mercancias(){
 
     return(
         <>
-            <h1>{titulo}</h1>
+            <h1 className="titulo">{titulo}</h1>
             <div className="container">
                 <div className="row row-cols-1 row-cols-md-3 g-5">
 
@@ -69,13 +69,13 @@ export function Mercancias(){
                             return(
                                 <div key={id}>
                                     <div className="col">
-                                        <div className="card h-100 shadow ">
+                                        <div className="card h-100 shadow">
 
-                                            <h5>{producto.nombre}</h5>
+                                            <h5 className="nombre">{producto.nombre}</h5>
                                             <img src={producto.foto} alt="" className="img-fluid dimension"/>
                                             
-                                            <p>${producto.precio}</p>
-                                            <p>Algo mas</p>
+                                            <p className="precio">${producto.precio}</p>
+                                            <p className="texto">Producto original fabricado antes de la separación de la banda</p>
                                             <button className='btn btn-primary mx-3 mb-3 my-3' onClick={
                                                 function(){
                                                     detectarEvento(producto)

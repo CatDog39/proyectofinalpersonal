@@ -1,14 +1,23 @@
+.titulo{
+    text-align: center;
+}
+
 .dimension{
     height: 270px;
     width: 270px;
 }
 
-.letra{
-    font-size: 15px;
+.nombre{
+    font-size: 20px;
     font-weight: bold;
     padding-left: 10px;
 }
 
-.fuente{
-    text-align: center;
+.precio{
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+.texto{
+    padding-left: 10px;
 }
