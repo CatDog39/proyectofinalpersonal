@@ -2,7 +2,8 @@
     
 }
 
-.cuadro{
+.cuadrado{
     border: 2px rgb(65, 45, 45) solid;
-    
+    text-align: center;
+    padding: 20px;
 }

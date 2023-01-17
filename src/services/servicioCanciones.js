@@ -1,6 +1,10 @@
+import { generarToken } from "./servicioToken"
+
 //RECETA PARA CONSUMIR UN API CON REACT
 
 export async function servicioCancionesTop(){
+
+    let token=await generarToken()
 
     //1. PA ONDE VAS Y A QUE VAS
     //ESCRBIR LA URL DEL SERVICIO DEL API
@@ -11,7 +15,7 @@ export async function servicioCancionesTop(){
     //PETICION ES LO MISMO QUE REQUEST
     const PETICION={
         method:"GET",
-        headers:{Authorization:"Bearer BQAUwASi4pzOOIZ4U55j0syjxpGbsX490HrZNTEu6z_njBLSKUre6J6rPIYVZRw-J5MF8r6-PSj3ABJmSnbK-BzGYBIdV7SYopiQZic3Qngl644tOS-O3aLtDy4GpeF_TY5kjNgzOYcknWQTU4HQy4ABUoWq1skLUsm95wQvjV-SkerWKQFbuZ3A-OJV7YG-Uhg"}
+        headers:{Authorization:token}
     }
 
     //3. NOS VAMOS PAL RESTAURANTE
@@ -20,7 +24,7 @@ export async function servicioCancionesTop(){
     let canciones=await respuesta.json()
 
     return canciones
-
+    
 
 
 }

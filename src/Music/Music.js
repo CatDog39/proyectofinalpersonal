@@ -31,7 +31,7 @@ export function Music(){
     }else{
         return(
             <>
-                <h2>canciones de la banda: </h2>
+                <h2>Canciones Top de la banda: </h2>
                 <div className="container">
                     <div className="row row-cols-1 row-cols-md-5 g-4">
                         {
@@ -39,11 +39,11 @@ export function Music(){
                                 return(
                                     <div key={id}>
                                         <div className="col">
-                                            <div className="card h-100 shadow">
+                                            <div className="card carta shadow">
                                                 <img src={cancion.album.images[0].url} className="img-fluid w-100"></img>
                                                 <p className="titulo">{cancion.name}</p>
                                                 <audio controls src={cancion.preview_url}></audio>
-                                                <p>Popularidad: {cancion.popularity}</p>
+                                                <p className="popular">Popularidad: {cancion.popularity}</p>
                                             </div>
                                         </div>
                                     </div>
